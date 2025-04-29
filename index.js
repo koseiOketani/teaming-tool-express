@@ -2,6 +2,7 @@
 
 const express = require('express');
 const { Client, GatewayIntentBits } = require('discord.js');
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
@@ -18,6 +19,7 @@ const client = new Client({
 
 // JSONパーサーのみ設定
 app.use(express.json());
+app.use(cors());
 
 // BOTのログイン
 client.login(process.env.DISCORD_BOT_TOKEN);
