@@ -15,5 +15,13 @@
     "discord.js": "^14.19.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koseiOketani/teaming-tool-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koseiOketani/teaming-tool-express/issues"
+  },
+  "homepage": "https://github.com/koseiOketani/teaming-tool-express#readme"
 }
